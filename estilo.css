@@ -318,7 +318,6 @@ nav li a:hover {
   margin: 10px;
   display: flex;
   justify-content: flex-start;
-  border: 1px solid red;
   align-items: flex-start;
   flex-direction: column;
 }
