@@ -1,0 +1,369 @@
+/* formatação  global*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* formatação body */
+body {
+  font-family: "Arial", helvetica, sans-serif;
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  background: black;
+}
+/* formatação do cabecalho*/
+header {
+  width: 100%;
+  height: 80px;
+  background: #0c94e8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header h1 {
+  margin-left: 20px;
+  color: white;
+}
+header span a {
+  color: #0c94e8;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px white;
+}
+
+/* formatacao do menu topo */
+nav {
+  width: 100%;
+  height: 50px;
+  background: #0c94e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+nav li a:hover {
+  border-bottom: 2px solid white;
+}
+/* section */
+.section1 {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../imagens/banner1.jpeg)no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.canais {
+  padding: 5px 20px;
+  background: #0c94e8;
+  border-radius: 20px;
+}
+.section1 h2 {
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+}
+.section1 p {
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.btn-teste a {
+  color: white;
+  background: #0c94e8;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.btn-teste a:hover {
+  background: white;
+  color: #0c94e8;
+}
+/* formatação segunda seção */
+.section2 {
+  width: 100%;
+  height: 150px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.section2 h2 {
+  color: #0c94e8;
+  margin: 10px;
+  font-size: 28px;
+}
+.section2 p {
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+}
+/* formatação secao de planos*/
+.section-planos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.planos {
+  width: 200px;
+  height: 450px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.planos:hover {
+  margin-top: -20px;
+  width: 225px;
+  height: 475px;
+}
+.azul {
+  background: #0c94e8;
+  color: white;
+  border: 2px solid white;
+}
+.planos h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+.planos h2 {
+  padding: 0 10px;
+}
+.planos span {
+  font-size: 20px;
+  padding: 0 10px;
+}
+.planos p {
+  margin-bottom: 30px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.azul a {
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.white {
+  color: #0c94e8;
+  border: 2px solid #0c94e8;
+  background: white;
+  
+}
+.white a {
+  padding: 15px 25px;
+  background: #0c94e8;
+  border-radius: 30px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+/* formatação como assistir */
+.como-assistir {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.esquerda {
+  width: 400px;
+  height: 400px;
+  background: #242424;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 0;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+.esquerda span {
+  font-size: 40px;
+  color: #0c94e8;
+  padding-left: 30px;
+}
+.esquerda h2 {
+  color: white;
+  padding: 10px;
+}
+.esquerda p {
+  color: white;
+  padding: 10px;
+}
+.esquerda a {
+  color: blue;
+}
+.btn-app {
+  color: blue;
+  padding: 10px;
+  font-weight: bold;
+}
+.direita {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 2;
+  border: 2px solid #0c94e8;
+  border-radius: 30px;
+}
+.imagem img {
+  padding-left: 10px;
+}
+.direita span {
+  font-size: 50px;
+  color: #0c94e8;
+  padding-left: 30px;
+}
+.direita h2 {
+  color: white;
+  padding: 10px;
+}
+.direita p {
+  color: white;
+  padding: 10px;
+}
+.direita a {
+  color: #0003ffca;
+}
+.btn-saiba-mais a {
+  background: #0c94e8;
+  padding: 10px 20px;
+  margin: 10px;
+  display: block;
+  width: 135px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 20px;
+}
+/* formatação da área de canais */
+.section3 {
+  width: 100%;
+  color: #0c94e8;
+  height: 150px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.area-canais {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  color: white;
+  margin: 20px 0;
+}
+.area-canais h2 {
+  text-transform: uppercase;
+}
+.area-canais h2:hover {
+  color: #0c94e8;
+  font-size: 35px;
+}
+.area-canais span {
+  color: blue;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.area-canais span:hover {
+  color: white;
+}
+.canais1 {
+  width: 320px;
+  margin: 0 5px;
+}
+/* formatação da area de contato*/
+.contato {
+  height: 150px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid red;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contato h3 {
+  color: white;
+  margin: 20px;
+  color: #0c94e8;
+}
+.contato a {
+  color: white;
+  background: #0c94e8;
+  margin-left: 20px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* media queries */
+@media(max-width: 330px){
+  nav ul a {
+    padding: 5px;
+  }
+  .canais {
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 435px){
+  .planos {
+    width: 310px;
+  }
+  .planos:hover {
+    margin-top: 20px;
+    width: 320px;
+    height: 450px;
+  }
+}
+@media(max-width: 840px){
+  .direita {
+    flex-grow: 1;
+  }
+  .esquerda {
+    flex-grow: 1;
+  }
+  .direita2 {
+    order: 3;
+  }
+}
